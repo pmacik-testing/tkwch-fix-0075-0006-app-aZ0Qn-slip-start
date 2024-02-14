@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xopt
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0006-tenant/tkwch-fix-0075-0006-app/devfile-sample-xopt@sha256:64e7899ec06b5f94c620ffe8f2f715da0c1df45d6657f7ac050fc776f29e2c29
         name: my-nodejs
         ports:
         - containerPort: 3001
